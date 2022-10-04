@@ -9,6 +9,7 @@ function App() {
       <ToastContainer />
       <Routes>
         <Route exact path="/" element={<Crud />} />
+{<Route exact path="/update/:id" component={Update} />}
       </Routes>
     </div>
   );
